@@ -7,13 +7,25 @@ nav{
     margin-top: 5%;
     margin: auto;
     padding: 1%;
+    
+    
+
 }
 button{
 border-radius: 10px;
 border-color: white;
 }
+
 body{
     background-color: rgb(198, 220, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+main{
+    padding: 20px
 }
 .imagediddy1{
     display: flex;
@@ -22,7 +34,31 @@ body{
     margin: auto;
 }
 .novodidi{
-    
+    display: flex;
+    width: 60%;
+    margin-top: 10%;
+    margin: auto;
+}
+
+.cards{ 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border:10px;
+}
+
+.card1{
+    border: 3px solid black
+}
+
+.card2{
+    border: 3px solid black
+}
+.card3{
+    border: 3px solid black
+}
+.card4{
+    border: 3px solid black
 }
 h1{
     display: flex;
@@ -36,12 +72,17 @@ footer{
     background-color: rgb(7, 15, 15);
     display: flex;
     justify-content: space-around;
-    position: fixed;
     bottom: 0;
     margin-top: 30%;
     width: 100%;
     
    
+}
+
+ul{
+    color: rgb(28, 100, 158);
+    text-decoration: none;
+
 }
 h2{
     background-color: white;
