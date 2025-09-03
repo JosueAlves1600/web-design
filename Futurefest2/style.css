@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+
+.principal{
+    width: 100%;
+    text-align: center;
+}
+
+.principal img{
+    width: 20%;
+}
+
+.secundario{
+    width: 100%;
+    display: flex;
+    justify-cotent: space-around;
+}
+
+.secundario img{
+    width: 25%;
+}
