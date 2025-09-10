@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loading{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 5px dashed black;
+    animation: rotate 3s ease-in infinite;
+}
+.loading2{
+    width: 150px;
+    height: 10px;
+    background-color: blue;
+    animation: carregamento 2s ease infinite;
+}
+@keyframes carregamento{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 150px;
+    }
+}
+ 
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
